@@ -210,3 +210,36 @@ footer {
 .logo_estia {
   height: 80px;
 }
+.section-title {
+    margin: 200px 20px 20px 60px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.logements-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px; 
+    margin-top: 30px; 
+}
+
+.logement-item {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.logement-img {
+    width: 250px;     
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.logement-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
