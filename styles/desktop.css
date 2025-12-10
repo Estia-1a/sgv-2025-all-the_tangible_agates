@@ -6,4 +6,17 @@
     text-align: center;
   }
 
+  .btn-modifier {
+    margin-top: 40px;
+    padding: 10px 25px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+  }
   
+  .btn-modifier:hover {
+    border-color: #999;
+  }
