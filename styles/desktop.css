@@ -1,22 +1,25 @@
 .texte1-centre {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  .texte2-centre {
-    text-align: center;
-  }
+.texte2-centre {
+  text-align: center;
+}
 
-  .btn-modifier {
-    margin-top: 40px;
-    padding: 10px 25px;
-    background-color: white;
-    color: #333;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-  
-  .btn-modifier:hover {
-    border-color: #999;
-  }
+.btn-modifier {
+  margin-top: 40px;
+  padding: 10px 30px;
+  background: white;
+  color: #333;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;       
+  margin-left: auto;        
+  margin-right: auto;
+}
+
+.btn-modifier:hover {
+  border-color: #999;
+}
