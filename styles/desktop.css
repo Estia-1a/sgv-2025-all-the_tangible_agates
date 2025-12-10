@@ -218,22 +218,22 @@ footer {
 }
 
 .logements-container {
-    display: flex;
-    justify-content: center;
-    gap: 200px; 
-    margin-top: 30px; 
+  display: flex;
+  justify-content: center;
+  gap: 200px; 
+  margin-top: 30px; 
 }
 
 .logement-item {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .logement-img {
-    width: 250px;     
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 275px;     
+  height: 275px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 
