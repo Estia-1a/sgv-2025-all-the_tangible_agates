@@ -1,0 +1,212 @@
+/* Polices d'écritures */
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #F0E3C3 0%, #E8D4A8 100%);
+  padding: 2rem 4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.header-text {
+  text-align: right;
+  padding-right: 3rem;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 300;
+}
+
+.header-text strong {
+  font-weight: 600;
+  color: #8B4513;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 120px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav li a {
+  display: block;
+  padding: 1.2rem 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav li a:hover {
+  background-color: #F0E3C3;
+  border-bottom-color: #8B4513;
+  color: #8B4513;
+}
+
+nav li a.active {
+  background-color: #F0E3C3;
+  border-bottom-color: #8B4513;
+  color: #8B4513;
+}
+
+/* CONTENU PRINCIPAL */
+main {
+  flex: 1;
+  padding: 3rem 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(135deg, #8B4513 0%, #654321 100%);
+  color: white;
+  padding: 3rem 4rem;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo img {
+  height: 100px;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info h3 {
+  font-family: "DM Serif Text", serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #F0E3C3;
+}
+
+.footer-info p {
+  line-height: 1.8;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.footer-credits {
+  text-align: right;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.footer-credits p {
+  line-height: 1.6;
+}
+
+.logo_estia {
+  height: 80px;
+}
